@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#872727"
+    android:elevation="4dp">
+    <Button
+        android:id="@+id/action_backwards"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_backwards"
+        android:icon="@drawable/ic_backwards"
+        android:onClick="backwards"
+        android:title="Backwards"
+        app:actionViewClass="android.widget.Button" />
+
+    <Button
+        android:id="@+id/action_forwards"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_forward"
+        android:icon="@drawable/ic_forward"
+        android:onClick="forwards"
+        android:title="Forwards"
+        app:actionViewClass="android.widget.Button" />
+
+    <SearchView
+        android:id="@+id/action_search"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:keepScreenOn="false"
+        android:overScrollMode="never"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <Button
+        android:id="@+id/action_refresh"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:onClick="refresh"
+        android:title="Refresh"
+        app:actionViewClass="android.widget.Button" />
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
